@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(37, 36, 36);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(193, 193, 193);
+}
+
+/* Header */
+
+body header nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5625rem;
+    padding-bottom: 5px;
+}
+
+body header nav .logo img{
+    width: 5vw;
+}
+
+body header nav .navbar ul li{
+    list-style: none;
+    display: inline;
+    font-weight: 600;
+    padding: 10px;
+    align-items: center;
+}
+
+
+body header nav .menuBurguer{
+    display: flex;
+    align-items: center;
+}
+
+/* Header final */
+
+/* Main */
+
+body main .principalImage{
+    width: 100%;
+}
+
+/* iPhone 15 Pro */
+
+.iphone15Pro img{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+}
+
+.iphone15Pro .descriptionIphone{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.iphone15Pro .descriptionIphone h1{
+    font-size: 50px;
+    color: white;
+}
+
+.iphone15Pro .descriptionIphone p{
+    font-size: 30px;
+    padding: 0px 100px 0px 0px;
+}
+
+body main .iphone15Pro{
+    display: flex;
+    width: 100%;
+}
+
+/* iPhone 15 Pro fin */
+
+/* MacBook Air */
+
+body main .mackBookAir{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+body main .mackBookAir img{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main .descriptionMacbookAir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+body main .descriptionMacbookAir h2{
+    font-size: 3.125rem;
+    color: white;
+}
+
+body main .descriptionMacbookAir p{
+    font-size: 30px;
+    padding: 20px 100px 20px 100px;
+}
+/* MacBook Air fin */
+
+/* AirPods */
+
+body main .airPods{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content:center ;
+}
+
+body main .airPods img{
+    width: 50vw;
+    padding: 70px 0px 50px 0px;
+}
+
+body main .airPods .descriptionAirpods{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+body main .airPods .descriptionAirpods h2{
+    font-size: 50px;
+}
+
+body main .airPods .descriptionAirpods p{
+    font-size: 30px;
+    padding: 20px 100px 20px 100px;
+}
+
+/* AirPods fin */
+
+/* Footer */
+
+footer{
+    padding-bottom: 30px;
+}
+
+body footer .footerFin{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: small;
+}
+
+body footer .footerFin ul li{
+    list-style: none;
+}
+
+body footer .footerFin .leftFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body footer .footerFin .rightFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body footer .footerFin .rightFooter ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+body footer .tarjetas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+body footer .tarjetas .coppy{
+
+    font-size: xx-small;
+}
