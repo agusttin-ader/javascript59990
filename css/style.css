@@ -152,6 +152,7 @@ body main .airPods .descriptionAirpods p{
 /* Footer */
 
 footer{
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -202,3 +203,68 @@ body footer .tarjetas .coppy{
 
     font-size: xx-small;
 }
+
+/* Page 15 PRO */
+
+main .iphoneQuincePro{
+    display: flex;
+}
+
+main .iphoneQuincePro img{
+    width: 60vw;
+}
+
+main .iphoneQuincePro .descriptionQuincePro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+main .iphoneQuincePro .descriptionQuincePro h1{
+    font-size: 40px;
+}
+
+main .iphoneQuincePro .descriptionQuincePro h2{
+    font-size: 30px;
+}
+
+main .iphoneQuincePro .descriptionQuincePro h3{
+    font-size: 25px;
+}
+
+main .iphoneQuincePro .descriptionQuincePro p{
+    font-size: 20px;
+}
+
+main .compraQuince{
+    display: flex;
+    padding: 20px 100px 20px 100px;
+    margin: 20px 100px 20px 100px;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+}
+
+main .compraQuince .quinceProTitle h3{
+    font-weight: 450;
+    font-size: large;
+}
+
+main .compraQuince .comprarIphoneQuincePro p{
+    font-weight: 450;
+    font-size: large;
+}
+
+main .compraQuince .comprarIphoneQuincePro button{
+    font-weight: 450;
+    font-size: large;
+}
+
+main .comprarIphoneQuincePro{
+    display: flex;
+    gap: 70px;
+}
+
+
+/* Page 15 PRO FIN */
