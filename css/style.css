@@ -298,3 +298,43 @@ main .iphoneQuince p{
 }
 
 /* Page 15 PRO FIN */
+
+/* MackBook Air */
+
+main .airPresentation{
+    margin: 20px 50px 20px 50px;
+}
+
+main .airPresentation img{
+    width: 70vw;
+    justify-content: center;
+}
+
+main .descriptionMacbookAirMtres img{
+    width: 15vw;
+}
+
+main .descriptionMacbookAirMtres p{
+    font-size: 30px;
+}
+
+main .descriptionMacbookAirMtres{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 100px 0px 100px;
+}
+
+main.pulgadasAir{
+    display: flex;
+    justify-content: center;
+}
+
+main .pulgadasAir img{
+    width: 70vw;
+}
+
+
+
+
+/* MackBook Air fin */
