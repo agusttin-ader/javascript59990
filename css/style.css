@@ -208,10 +208,12 @@ body footer .tarjetas .coppy{
 
 main .iphoneQuincePro{
     display: flex;
+    gap: 100px;
+    padding: 20px 200px 50px 200px;
 }
 
 main .iphoneQuincePro img{
-    width: 60vw;
+    width: 35vw;
 }
 
 main .iphoneQuincePro .descriptionQuincePro{
@@ -219,7 +221,6 @@ main .iphoneQuincePro .descriptionQuincePro{
     flex-direction: column;
     gap: 30px;
     justify-content: center;
-    padding-right: 40px;
 }
 
 main .iphoneQuincePro .descriptionQuincePro h1{
@@ -264,6 +265,36 @@ main .compraQuince .comprarIphoneQuincePro button{
 main .comprarIphoneQuincePro{
     display: flex;
     gap: 70px;
+}
+
+main .descriptionQuince{
+    display: flex;
+    gap: 100px;
+    margin: 20px 200px 20px 200px;
+}
+
+main .descriptionQuinceSystem{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .iphoneQuince .descriptionQuince img{
+    width: 35vw;
+}
+
+main .iphoneQuince .descriptionQuince h2{
+    font-size: 40px;
+} 
+
+main .iphoneQuince .descriptionQuince h3{
+    font-size: 30px;
+}
+
+main .iphoneQuince p{
+    font-size: 25px;
+    padding: 0 200px 50px 200px;
 }
 
 
