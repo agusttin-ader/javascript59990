@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(14, 14, 14);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(193, 193, 193);
 }
@@ -154,6 +154,7 @@ body main .airPods .descriptionAirpods p{
 footer{
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .footerFin{
@@ -165,28 +166,42 @@ body footer .footerFin{
     padding-left: 20px;
     padding-right: 30px;
     font-size: small;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .footerFin ul li{
     list-style: none;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .footerFin .leftFooter{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: rgb(10, 10, 10);
+}
+
+body footer .footerFin .leftFooter ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .footerFin .rightFooter{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .footerFin .rightFooter ul{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    gap: 5px;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .tarjetas{
@@ -197,13 +212,39 @@ body footer .tarjetas{
     justify-content: space-between;
     padding-right: 30px;
     padding-left: 20px;
+    padding-top: 5px;
+    background-color: rgb(10, 10, 10);
 }
 
 body footer .tarjetas .coppy{
 
     font-size: xx-small;
+    background-color: rgb(10, 10, 10);
 }
 
+body footer .tarjetas ul{
+    background-color: rgb(10, 10, 10);
+}
+
+body footer .tarjetas ul svg{
+    background-color: rgb(10, 10, 10);
+}
+
+body footer .leftFooter .nosotros h3{
+    background-color: rgb(10, 10, 10);
+}
+
+body footer .leftFooter .shop h3{
+    background-color: rgb(10, 10, 10);
+}
+
+body footer .rightFooter .ayuda h3{
+    background-color: rgb(10, 10, 10);
+}
+
+body footer .rightFooter .redes h3{
+    background-color: rgb(10, 10, 10);
+}
 /* Page 15 PRO */
 
 main .iphoneQuincePro{
@@ -225,6 +266,7 @@ main .iphoneQuincePro .descriptionQuincePro{
 
 main .iphoneQuincePro .descriptionQuincePro h1{
     font-size: 40px;
+    color: white;
 }
 
 main .iphoneQuincePro .descriptionQuincePro h2{
@@ -286,6 +328,7 @@ main .iphoneQuince .descriptionQuince img{
 
 main .iphoneQuince .descriptionQuince h2{
     font-size: 40px;
+    color: white;
 } 
 
 main .iphoneQuince .descriptionQuince h3{
@@ -333,6 +376,7 @@ main.pulgadasAir{
 main .pulgadasAir img{
     width: 70vw;
 }
+
 
 
 
