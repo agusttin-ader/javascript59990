@@ -1,0 +1,33 @@
+body{
+    header{
+        nav{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5625rem;
+            padding-bottom: 5px;
+            .logo{
+                img{
+                    width: 5vw;
+                }
+            }
+            .navbar{
+                ul{
+                    li{
+                        list-style: none;
+                        display: inline;
+                        font-weight: 600;
+                        padding: 10px;
+                        align-items: center;
+                    }
+                }
+            }
+            .menuBurguer{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

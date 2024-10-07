@@ -1,0 +1,87 @@
+body{
+    main{
+        .principalImage{
+            width: 100%;
+        }
+        .iphone15Pro{
+            display: flex;
+            width: 100%;
+            img{
+                display: flex;
+                width: 50vw;
+                align-items: center;
+            }
+            .descriptionIphone{
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                justify-content: center;
+                padding: 20px;
+                gap: 20px;
+                h1{
+                    font-size: 50px;
+                    color: white;
+                }
+                p{
+                    font-size: 30px;
+                    padding: 0px 100px 0px 0px;
+                }
+            }
+        }
+        .mackBookAir{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            img{
+                width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .descriptionMacbookAir{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 1.25rem;
+                padding-top: 30px;
+                h2{
+                    font-size: 3.125rem;
+                    color: white;
+                }
+                p{
+                    font-size: 30px;
+                    padding: 20px 100px 20px 100px;
+                }
+            }
+        }
+        .airPods{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 50vw;
+                padding: 70px 0px 50px 0px;
+            }
+            .descriptionAirpods{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.25rem;
+                padding-bottom: 30px;
+                h2{
+                    font-size: 50px;
+                }
+                p{
+                    font-size: 30px;
+                    padding: 20px 100px 20px 100px;
+                }
+            }
+        }
+    }
+}
