@@ -127,5 +127,8 @@ let productoElegido = obtenerPrecioPorCapacidad(iphone, "Iphone 15 pro", 512);
 
 console.log(productoElegido);
 
+// Si se le da una capacidad erronea devuelve Producto no encontrado.
+
+
 
 
