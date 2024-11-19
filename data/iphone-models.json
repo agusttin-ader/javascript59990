@@ -1,0 +1,21 @@
+
+[
+    {
+        "id": 1,
+        "modelo": "iPhone 15 Pro",
+        "capacidad": 128,
+        "precio": 989
+    },
+    {
+        "id": 2,
+        "modelo": "iPhone 15 Pro",
+        "capacidad": 256,
+        "precio": 1099
+    },
+    {
+        "id": 3,
+        "modelo": "iPhone 15 Pro",
+        "capacidad": 512,
+        "precio": 1199
+    }
+]

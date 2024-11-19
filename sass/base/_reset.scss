@@ -7,3 +7,85 @@
     color: rgb(193, 193, 193);
     
 }
+
+main{
+    .iphoneQuincePro{
+        display: flex;
+        gap: 100px;
+        padding: 20px 200px 50px 200px;
+        img{
+            width: 40vw;
+        }
+        .descriptionQuincePro{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            h1{
+                font-size: 40px;
+                color: white;
+            }
+            h2{
+                font-size: 25px;
+            }
+            h3{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+    }
+    }
+    .compraQuince{
+        display: flex;
+        padding: 20px 100px 20px 100px;
+        margin: 20px 100px 20px 100px;
+        border-bottom: 1px solid white;
+        justify-content: space-between;
+        .quinceProTitle{
+            h3{
+                font-weight: 450;
+                font-size: large;
+            }
+        }
+        .comprarIphoneQuincePro{
+            display: flex;
+            gap: 70px;
+            p{
+                font-weight: 450;
+                font-size: large;
+            }
+            button{
+                font-weight: 450;
+                font-size: large;
+            }
+        }
+    }
+    .iphoneQuince{
+        p{
+            font-size: 25px;
+            padding: 0 200px 50px 200px;
+        }
+        .descriptionQuince{
+            display: flex;
+            gap: 100px;
+            margin: 20px 200px 20px 200px;
+            .descriptionQuinceSystem{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                justify-content: center;
+            }
+            h2{
+                font-size: 40px;
+                color: white;
+            }
+            h3{
+                font-size: 30px;
+            }
+            img{
+                width: 35vw;
+            }
+        }
+    }
+}
